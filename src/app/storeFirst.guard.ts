@@ -18,5 +18,6 @@ export class StoreFirstGuard{
         return false;
       }
     }
+    return true;
   }
 }
